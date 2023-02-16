@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ActionPoint : MonoBehaviour {
 
-    public NavMeshAgent agent;
+    public UnityEngine.AI.NavMeshAgent agent;
     public string actionTrigger = "Action";
     public bool matchPosition = true;
     public bool matchRotation = true;

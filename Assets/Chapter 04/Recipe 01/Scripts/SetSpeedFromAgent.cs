@@ -4,14 +4,14 @@ using System.Collections;
 public class SetSpeedFromAgent : MonoBehaviour {
 
     //We store the reference to the NavmeshAgent component in this variable
-    NavMeshAgent agent;
+    UnityEngine.AI.NavMeshAgent agent;
     
     //We store the reference to the Animator component in this variable
     Animator anim;
 	
 	void Start () {
         //We assign the NavMeshAgent component to our agent variable
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
         //We assign the Animator component to our anim variable
         anim = GetComponent<Animator>();

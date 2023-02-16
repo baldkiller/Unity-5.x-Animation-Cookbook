@@ -5,7 +5,7 @@ public class ClickToMove : MonoBehaviour {
 
     //The Navmesh Agent we are trying to move
     //Navmesh Agents are used with Navmeshes for pathfinding
-    public NavMeshAgent agent;
+    public UnityEngine.AI.NavMeshAgent agent;
 
     //A RaycastHit variable to store the result of a raycast
     RaycastHit hit;

@@ -4,7 +4,7 @@ using System.Collections;
 public class NavAgentWithRigidBody : MonoBehaviour {
     
     //This variables stores the reference to the Nav Mesh Agent component
-    NavMeshAgent agent;
+    UnityEngine.AI.NavMeshAgent agent;
 
     //This variable stores the reference to the Animator component
     Animator anim;
@@ -23,7 +23,7 @@ public class NavAgentWithRigidBody : MonoBehaviour {
     void Start()
     {
         //We set the references to the Nav Mesh Agent component and the Animator component
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         anim = GetComponent<Animator>();
     }
     // Update is called once per frame

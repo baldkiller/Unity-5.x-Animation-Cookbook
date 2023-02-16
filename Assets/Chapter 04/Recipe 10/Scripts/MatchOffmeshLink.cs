@@ -4,7 +4,7 @@ using System.Collections;
 public class MatchOffmeshLink : MonoBehaviour {
 
     Animator anim;
-    NavMeshAgent agent;
+    UnityEngine.AI.NavMeshAgent agent;
     Rigidbody rb;
 
 
@@ -17,7 +17,7 @@ public class MatchOffmeshLink : MonoBehaviour {
 	void Start () {
 
         anim = GetComponent<Animator>();
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         rb = GetComponent<Rigidbody>();
 	
 	}
